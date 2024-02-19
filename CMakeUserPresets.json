@@ -7,7 +7,7 @@
       "binaryDir": "${sourceDir}/out/build",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CMAKE_TOOLCHAIN_FILE": "c:/users/arpandas/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        "CMAKE_TOOLCHAIN_FILE": "C:/Users/arpandas/vcpkg/scripts/buildsystems/vcpkg.cmake"
       },
       "inherits": [
         "Qt-Default"
@@ -19,21 +19,11 @@
       "binaryDir": "${sourceDir}/out/build",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release",
-        "CMAKE_TOOLCHAIN_FILE": "c:/users/arpandas/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        "CMAKE_TOOLCHAIN_FILE": "C:/Users/arpandas/vcpkg/scripts/buildsystems/vcpkg.cmake"
       },
       "inherits": [
         "Qt-Default"
       ]
-    },
-    {
-      "hidden": true,
-      "name": "Qt-Default",
-      "inherits": "qt6msvc",
-      "vendor": {
-        "qt-project.org/Default": {
-          "checksum": "NHHd7dpajUSFkOobwRZ4IF/vfPU="
-        }
-      }
     },
     {
       "hidden": true,
@@ -52,11 +42,21 @@
           "checksum": "Gxt/zUGhiDHGwFEyAkWKrf6po4Q="
         }
       }
+    },
+    {
+      "hidden": true,
+      "name": "Qt-Default",
+      "inherits": "qt6msvc",
+      "vendor": {
+        "qt-project.org/Default": {
+          "checksum": "NHHd7dpajUSFkOobwRZ4IF/vfPU="
+        }
+      }
     }
   ],
   "vendor": {
     "qt-project.org/Presets": {
-      "checksum": "K4jBU/ZEnIxaGf9felz7TfWx4UE="
+      "checksum": "n/DG8D8djCY2oDxEDjHbRMfsUnY="
     }
   }
 }

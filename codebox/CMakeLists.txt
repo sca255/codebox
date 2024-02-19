@@ -12,7 +12,7 @@ find_package(Qt${QT_VERSION_MAJOR}
         Core
 )
 qt_standard_project_setup()
-find_package(curl REQUIRED COMPONENTS ALL)
+#find_package(curl REQUIRED COMPONENTS ALL)
 find_package(RocksDB CONFIG REQUIRED)
 find_package(CURL REQUIRED)
 set(PROJECT_SOURCES
